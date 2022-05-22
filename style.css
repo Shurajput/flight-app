@@ -1,0 +1,86 @@
+*                  {
+
+                       margin: 0;
+                       padding: 0;
+
+
+                   }
+body               {
+ 
+                     justify-content: center;
+                     align-items: center;
+                     font-size: 0.8rem;
+                    }     
+
+.main              {
+                     background-image: url(nnnn.jpeg);
+                     background-size: cover;
+                     background-repeat: no-repeat;
+                     height: 100vh;
+                     width: 100%;
+                   }
+.logincontainer    {
+                     display:flex;
+                     flex-direction: column;
+                     row-gap: 15px;
+                     justify-content: center;
+                   }
+                    
+#s1                {
+      
+                     color:white;
+                     height: 5vh; 
+                     display: flex;
+                     justify-content: center;
+                   }
+#s2                {
+                     display: flex;
+                     justify-content: center;
+                     border:1px solid bisque;
+                     width: 453px;
+                   }                                    
+
+
+.litem             {
+                     display: flex;
+                     color: white; 
+                     justify-content:center;
+                     gap: 5px;    
+                     width: 1300px;
+                  
+                   }
+.fc                {
+      
+                     border: 1px solid  black;
+                     color:black;
+                     background: wheat;
+
+}
+
+.ticketscontainer  {
+                     display: flex;
+                     color: white; 
+                     justify-content:center;
+                     flex-direction: column;
+                     width: 1900px;
+                    }
+.titems             {
+                     display: flex;
+                     color: white; 
+                     justify-content: center;
+                    }                    
+.card               {
+                     display: flex;
+                     flex-direction: column;
+                     border: 1px solid bisque; 
+                     width: 250px;
+                     justify-content: center;
+                     }
+.image{
+                     display: flex;
+                     flex-direction: column;
+                     width: 200px;
+                     border: 1px solid bisque;
+                     justify-content: center;
+
+      }     
