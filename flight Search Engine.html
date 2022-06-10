@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+                <title>Ticket Booking Site</title>
+                <link rel="stylesheet" href="style.css">
+                <script src="script.js"></script>
+            
+        
+    </head>
+    <body>
+        <form>
+                   <h1 id="s">Flight Search Engine</h1>
+            
+            <div class="main">
+                
+                <div id="s1">
+                   <input type="radio" name="way" onclick="depa(1)">One Way 
+                   <input type="radio" name="way" onclick="depa(2)" required> Return 
+                </div>
+                <div id="mitems">
+                     <p>  Enter Origin City <br><input type="text" id="fc" placeholder="eg.Pune" required></p>
+                     <p> Enter Destination City <br> <input type="text" id="fc" placeholder="eg.Delhi" required></p>
+                     <p id="s2" hidden> Departure Date <br> <input type="date" id="fc"required></p>
+                    <div id="ss3" hidden>       
+                        <div id="s3">
+                           <div><p> Departure Date <br> <input type="date" id="fc" required></p></div>  
+                           <div><p> Return Date <br> <input type="date" id="fc" required></p></div>
+                        </div>
+                     </div>
+                           <p> Passengers <br> <input type="number" id="fc" placeholder="eg.1" required></p>
+
+                           <p><input type="submit" value="Search" id="se"onclick="myfun()"></p>
+                </div>  
+            
+                 <div id="s4">      
+                           <p> <h3>Refine Flight Search</h3> <br><input type="range" min="1" max="10000"></p>
+                 </div>
+                   
+            </div>
+        
+            <div class="Ticket" id="t1" hidden>
+                <div id="s5">
+                        <h4> Pune > Delhi > Pune</h4>
+                    <div id="s6">
+                     
+                        <p> Depart : 1st Jan 2012</p>
+                        <p id="t2"hidden> Return : 10th Jan 2012</p>
+                    </div>
+                </div>    
+                <div id="titems">
+                          <h3>Rs.9.5000.00</h3>
+                    <div id="s7">
+                       <pre>
+AI-202                AI-203
+<b>PNQ > DEL             DEL > PNQ</b>
+Depart: 10.10 AM      Depart: 08.00 PM
+Arrive: 12.00 Am      Arrive: 11.00 PM                               
+                       </pre>
+                    </div>
+                        
+                    
+                    <div class="image">
+                        <p>
+                            <img src="n1.png" id="titems.img" width="115" height="60">
+                            <input type="button" value="Book This Flight" onclick="book()" id="bb">
+                        </p>
+                    </div>
+                </div>
+                <div id="titems">
+                        <h3>Rs.9.5000.00</h3>
+                <div id="s7">
+                            <pre>
+AI-202                AI-203
+<b>PNQ > DEL             DEL > PNQ</b>
+Depart: 10.10 AM      Depart: 08.00 PM
+Arrive: 12.00 Am      Arrive: 11.00 PM
+                            </pre>
+                    </div>
+                      
+                  
+                  <div class="image">
+                      <p>
+                          <img src="n1.png" id="titems.img" width="115" height="60">
+                          <input type="button" value="Book This Flight" onclick="book()" id="bb">
+                      </p>
+                  </div>
+                </div>
+                  <div id="titems">
+                    <h3>Rs.9.5000.00</h3>
+                    <div id="s7">
+                        <pre>
+AI-202                AI-203
+<b>PNQ > DEL             DEL > PNQ</b>
+Depart: 10.10 AM      Depart: 08.00 PM
+Arrive: 12.00 Am      Arrive: 11.00 PM
+                        </pre>
+                    </div>
+                  
+              
+              <div class="image">
+                  <p>
+                      <img src="n1.png" id="titems.img" width="115" height="60">
+                      <input type="button" value="Book This Flight" onclick="book()" id="bb">
+                  </p>
+              </div>
+            
+            </div> 
+            </div>
+        </form>
+    </body>
+</html>
